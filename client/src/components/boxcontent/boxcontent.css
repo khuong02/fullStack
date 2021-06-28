@@ -1,0 +1,281 @@
+.container-introduce {
+    width: 100%;
+    background-image: url("http://bhhome.vn/images/website/001.jpg");
+    background-position-y: -150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 180px;
+    position: relative;
+}
+
+.container-introduce h2 {
+    text-align: center;
+    width: calc(100% - 300px);
+    font-size: 4em;
+    position: absolute;
+    top: 70px;
+    color: #fff;
+    font-family: 'Great Vibes', cursive;
+}
+
+.container-introduce .box-introduce {
+    width: 100%;
+    height: 100%;
+    background-color: #e8ebda;
+}
+
+.container-introduce .box-introduce .box-content {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left {
+    width: 30%;
+    /* background-color: #fff; */
+    margin-right: 50px;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left .box-item {
+    max-width: 100%;
+    background-color: #fff;
+    margin-bottom: 50px;
+    padding: 3%;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left nav h4 {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left nav h4::before {
+    content: "";
+    position: absolute;
+    top: auto;
+    bottom: -8px;
+    left: 0px;
+    height: 2px;
+    width: 30px;
+    background-color: #ee4538;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left nav ul {
+    width: 100%;
+    padding: 0;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left nav a {
+    color: #373435;
+    display: inline-block;
+    transition: 0.15s ease-in-out;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left nav a:hover{
+    color: #ed3237;
+    display: inline-block;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left nav ul li:nth-child(2) {
+    margin-top: 15px;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left nav ul li:first-child {
+    padding: 0;
+    margin-top: 25px;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left nav ul li:first-child a {
+    padding: 0;
+    color: #ed3237;
+    font-weight: 600;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.15s ease-in-out;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left nav ul li:first-child a:hover {
+    color: #d8151b;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left nav ul li {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left nav ul li a {
+    border-top: 1px solid #ddd;
+    width: 100%;
+    padding: 10px;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left nav ul li a i {
+    margin-right: 5px;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left nav ul li:last-child a {
+    text-transform: uppercase;
+    color: #ed3237;
+    font-weight: 600;
+    transition: 0.15s ease-in-out;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left nav ul li:last-child a:hover {
+    color: #d8151b;
+}
+
+/* --------------------------------box-left-toggle-------------------------------- */
+
+.container-introduce .box-introduce .box-content .box-content-left-toggle {
+    width: 80%;
+    /* background-color: #fff; */
+    margin-right: 50px;
+    display:inline-block;
+    margin-bottom:50px;
+    text-align:left;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left-toggle .box-item {
+    max-width: 100%;
+    background-color: #fff;
+    /* margin-bottom: 50px; */
+    padding: 3%;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left-toggle nav h4 {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left-toggle nav h4::before {
+    content: "";
+    position: absolute;
+    top: auto;
+    bottom: -8px;
+    left: 0px;
+    height: 2px;
+    width: 30px;
+    background-color: #ee4538;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left-toggle nav ul {
+    width: 100%;
+    padding: 0;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left-toggle nav a {
+    color: #373435;
+    display: inline-block;
+    transition: 0.15s ease-in-out;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left-toggle nav a:hover{
+    color: #ed3237;
+    display: inline-block;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left-toggle nav ul li:nth-child(2) {
+    margin-top: 15px;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left-toggle nav ul li:first-child {
+    padding: 0;
+    margin-top: 25px;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left-toggle nav ul li:first-child a {
+    padding: 0;
+    color: #ed3237;
+    font-weight: 600;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.15s ease-in-out;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left-toggle nav ul li:first-child a:hover {
+    color: #d8151b;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left-toggle nav ul li {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left-toggle nav ul li a {
+    border-top: 1px solid #ddd;
+    width: 100%;
+    padding: 10px;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left-toggle nav ul li a i {
+    margin-right: 5px;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left-toggle nav ul li:last-child a {
+    text-transform: uppercase;
+    color: #ed3237;
+    font-weight: 600;
+    transition: 0.15s ease-in-out;
+}
+
+.container-introduce .box-introduce .box-content .box-content-left-toggle nav ul li:last-child a:hover {
+    color: #d8151b;
+}
+
+.container-introduce .box-introduce .box-content .box-content-right {
+    /* text-align:center; */
+    width: 50%;
+}
+
+.toggle-menu-box-content{
+    font-size:1.3em;
+    margin-bottom:5px;
+    cursor: pointer;
+    transition:0.15s ease-in-out;
+}
+
+.toggle-menu-box-content.exit:hover{
+    transform:rotate(180deg);
+}
+
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px){
+   .container-introduce .box-introduce .box-content {
+       width: auto;
+       margin-left:50px
+   }
+   .container-introduce .box-introduce .box-content .box-content-right {
+       position: relative;
+       width:60%;
+   }
+   .container-introduce h2 {
+       width: 100%;
+       font-size:3em;
+       top:100px;
+   }
+}
+
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 880px){
+     .container-introduce .box-introduce .box-content .box-content-right {
+       width:100%;
+   }
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px){
+    
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px){
+    
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px){
+    
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+button {
+    border: none;
+    outline: none;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+li{
+    list-style: none;
+}
+
+/* -------------------------Header---------------------------- */
+
+@import url(./components/header/header.css);
+/* -------------------------Home---------------------------- */
+
+@import url(./components/home/home.css);
+/* -------------------------Footer---------------------------- */
+
+@import url(./components/footer/footer.css);
+/* -------------------------boxcontent---------------------------- */
+
+@import url(./components/boxcontent/boxcontent.css);
+/* -------------------------introduce---------------------------- */
+
+@import url(./components/boxcontent/components/introduce/introduce.css);
+/* -------------------------commerce---------------------------- */
+
+@import url(./components/boxcontent/components/commerce/commerce.css);
+/* -------------------------Form---------------------------- */
+
+@import url(./auth/Form.css);
+/* -------------------------User---------------------------- */
+
+@import url(./user/user.css);

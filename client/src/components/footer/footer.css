@@ -1,0 +1,103 @@
+footer {
+    width: calc(100% - 300px);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container-footer {
+    background: #383435;
+    padding: 5% 0;
+    max-width: 100%;
+    display: flex;
+    padding-left: 10%;
+    color: #fff;
+}
+
+.container-footer .content-footer{
+    margin-right: 15%;
+}
+
+.container-footer .content-footer h2{
+    margin-bottom: 5px;
+}
+
+.container-footer .content-footer .__content-footer p {
+    margin: 2px 0;
+}
+
+.container-footer .content-footer .__content-footer p i {
+    margin-right: 5px;
+}
+
+.container-footer .content-footer .__content-footer p span {
+    font-weight: 400;
+}
+
+.container-footer .content-footer .__content-footer p a {
+    color: #fff;
+    transition: 0.15s ease-in-out;
+}
+
+.container-footer .content-footer .__content-footer p a:hover {
+    color: rgb(228, 208, 31);
+}
+
+.box-icon {
+    margin-top: 25px;
+}
+
+.box-icon i {
+    font-size: 2em;
+    margin: 0 20px 0 0;
+    opacity: 0.6;
+    transition: 0.15s ease-in-out;
+    cursor: pointer;
+}
+
+.box-icon i:hover {
+    color: rgb(228, 208, 31);
+    opacity: 1;
+    transform: scale(1.08);
+}
+
+.end-footer {
+    width: 100%;
+    height: 50px;
+    background: #2b2829;
+    color: #fff;
+}
+
+.end-footer p {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px){
+    footer{
+        width:100%;
+    }
+}
+
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px){
+    .container-footer {
+        flex-direction:column;
+    }
+    .box-icon {
+        margin-bottom:25px;
+    }
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px){
+    
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px){
+    
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px){
+    
+}

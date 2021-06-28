@@ -1,0 +1,291 @@
+/* ------------------------------Body-Header-Background----------------------------- */
+
+.background-header {
+    width: 100%;
+    background-color: #e8ebda;
+}
+
+.background-header .box-background {
+    width: calc(100% - 300px);
+    position: relative;
+}
+
+.background-header .box-background .__box-background {
+    min-width: 100%;
+}
+
+.background-header .box-background .__box-background img {
+    width: 100%;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 2rem;
+    color: #5a5a5a;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 2rem;
+    color: #5a5a5a;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* -----------------------------------Body-Product------------------------------ */
+
+.box-product {
+    width: calc(100% - 300px);
+    margin-top: 50px;
+}
+
+.box-product h2 {
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    font-size: 4em;
+}
+
+.box-product .__box-product {
+    max-width: 100%;
+    text-align:center;
+    height:auto;
+}
+
+.box-product .__box-product .product-item {
+    cursor: pointer;
+    display:inline-block;
+    padding: 1%;
+    background-color: #fff;
+    text-align:left;
+    margin: 0 2%;
+    width: 400px;
+    margin-bottom:15px;
+}
+
+.box-product .__box-product .product-item img {
+    max-width: 100%;
+}
+
+.box-product .__box-product .product-item .content-box {
+    margin-top: 5.5%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    height: 100px;
+    padding: 0 4%;
+}
+
+.box-product .__box-product .btn-box {
+    margin-top: 5%;
+    width: 100%;
+}
+
+.box-product .__box-product .btn-box .__btn-box {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.2s ease-in-out;
+}
+
+.box-product .__box-product .btn-box .__btn-box a {
+    width: 100%;
+    padding: 14px 4%;
+    display: inherit;
+    align-items: center;
+    justify-content: space-between;
+    color: #383435;
+    /* background-color: #ee4538; */
+    font-weight: 600;
+    font-size: 18px;
+    transition: inherit;
+}
+
+.box-product .__box-product .btn-box .__btn-box i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.box-product .__box-product .btn-box .__btn-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ee4538;
+    transform: skewX(-45deg) translateX(83%);
+    z-index: -1;
+    transition: 0.2s ease-in-out;
+}
+
+.box-product .__box-product .btn-box .__btn-box:hover {
+    background-color: #ee4538;
+}
+
+.box-product .__box-product .btn-box .__btn-box:hover a {
+    color: #fff;
+}
+
+.box-product .__box-product .btn-box .__btn-box:hover::before {
+    background-color: #383435;
+    transform: skewX(-45deg) translateX(-70%);
+}
+
+.box-product .__link-construction {
+    width: 100%;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.box-product .__link-construction {
+    padding-bottom: 5%;
+}
+
+/* ---------------------------------body-construction------------------------- */
+
+.box-construction {
+    margin-top: 3%;
+    width: calc(100% - 300px);
+    position: relative;
+}
+
+.box-construction h2 {
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    font-size: 4em;
+    padding-top: 25px;
+    color: #fff;
+}
+
+.box-construction .__box-product {
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* display: inline-block; */
+    /* transform: translateY(15%); */
+    text-align:center;
+}
+
+.box-construction .__box-product .product-item {
+    display: inline-block;
+    padding: 1%;
+    background: #fff;
+    margin-inline: 1%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    transform: scale(0.95);
+}
+
+.box-construction .__box-product .product-item img{
+    max-width: 100%;
+}
+
+.box-construction .__box-product .product-item .content-hover {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    transition: 0.3s ease-in-out;
+    transform: translateY(-100%);
+}
+
+.box-construction .__box-product .product-item .content-hover a {
+    /* font-size: 3em; */
+    color: #fff;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.box-construction .__box-product .product-item .content-hover a i {
+    margin-right: 2%;
+}
+
+.box-construction .__box-product .product-item:hover .content-hover {
+    transform: translateY(0);
+}
+
+.box-construction .__link-construction {
+    padding:2% 0;
+    text-align: center;
+    width: 100%;
+}
+
+.box-construction .__link-construction a, .box-product .__link-construction a {
+    padding: 5px 2%;
+    background: #ee4538;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #fff!important;
+    transition: 0.15s ease-in-out;
+}
+
+.box-construction .__link-construction a i, .box-product .__link-construction a i {
+    margin-left: 8px;
+}
+
+.box-construction .__link-construction a:hover, .box-product .__link-construction a:hover {
+    background: #383435;
+}
+
+
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px){
+    .box-background,.box-product,.box-construction{
+        width: 100%;
+    }
+    
+.background-header .box-background {
+    width: 100%;
+}
+.box-product .__box-product .product-item {
+    width: 300px;
+}
+.box-construction .__box-product .product-item {
+    width: 300px;
+}
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px){
+    
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px){
+    
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px){
+    .box-product .__box-product .product-item {
+    width: 200px;
+}
+.box-construction .__box-product .product-item {
+    width: 200px;
+}
+.box-header .menu-toggle {
+    width: 280px;
+}
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px){
+    
+}

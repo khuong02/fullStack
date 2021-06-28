@@ -1,0 +1,50 @@
+.box-commerce .box-item {
+    display: inline-block;
+    background-color: #fff;
+    margin: 0% 2% 2% 0%;
+    padding: 1% 0;
+    width: 234px;
+    height:201px;
+    text-align: center;
+}
+
+.box-commerce .box-item a {
+    display: inline-block;
+    text-align: center;
+}
+
+.box-commerce .box-item p {
+    text-align: center;
+    color: #373435;
+    font-weight: 600;
+}
+
+.box-commerce .box-item img {
+    max-width: 85%;
+    padding: 5% 0;
+}
+
+.box-commerce .MuiPagination-root {
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.box-commerce .MuiPagination-root .MuiPagination-ul {
+    justify-content: center;
+    padding-right: 30px;
+}
+
+.form-search {
+    margin-bottom: 15px;
+}
+
+.form-search input {
+    padding: 5px;
+    width: 208px;
+}
+
+.form-search button {
+    padding: 5px;
+    background-color: #fff;
+}

@@ -1,0 +1,22 @@
+.introduce{
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    padding-inline: 2%;
+    padding-top: 1%;
+}
+
+.introduce h4{
+     position: relative;
+     margin-bottom: 30px;
+}
+
+.introduce h4::before {
+     content: "";
+     position: absolute;
+     top: auto;
+     bottom: -5px;
+     left: 0px;
+     height: 2px;
+     width: 30px;
+     background-color: #ee4538;
+ }

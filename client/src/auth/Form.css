@@ -1,0 +1,290 @@
+/* .form {
+    display: flex;
+    max-width: calc(100% - 300px);
+    width: 500px;
+    margin: auto;
+    height: 70vh;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+} */
+
+.form {
+    width: calc(100% - 300px);
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-form {
+    width: 500px;
+    margin: auto;
+}
+
+.box-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-form form label {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.box-form form input {
+    margin: 10px 0;
+    padding: 10px 15px;
+}
+
+.box-form form p input {
+    margin-left: 5px;
+}
+
+.box-form form button {
+    padding: 10px;
+    font-weight: 600;
+    background-color: #373435;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+
+.box-form form button:hover {
+    padding: 10px;
+    font-weight: 600;
+    background-color: #ed3237;
+}
+
+.successShow {
+    width: 100%;
+    background-color: rgb(28, 207, 28);
+    color: #fff;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.errShow {
+    width: 100%;
+    background-color: rgb(231, 45, 39);
+    color: #fff;
+    padding: 10px;
+    font-weight: 600;
+}
+
+/* -----------------------------UserProduct------------------------------- */
+
+.box-user-product{
+    height: 100vh;
+    background:#e8ebda;
+    padding-top:50px;
+}
+
+.box-user-product .product-user-item {
+    display: inline-block;
+    margin: 1% 0 2% 2%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.box-user-product .product-user-item img {
+    max-width: 85%;
+    padding-top: 5%;
+}
+
+.box-user-product .product-user-item p {
+    font-weight: 600;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-size: 18px;
+}
+
+.box-user-product .product-user-item .box-btn {
+    width: 100%;
+}
+
+.box-user-product .product-user-item .box-btn button {
+    margin: 0 5% 3% 5%;
+    transition: 0.15s ease-in-out;
+}
+
+.box-user-product .product-user-item .box-btn button:hover {
+    background-color: #ed3237;
+    color: #fff;
+}
+
+.box-user-product .product-user-item .box-btn .edit a {
+    color: #000;
+    transition: 0.15s ease-in-out;
+}
+
+.box-user-product .product-user-item .box-btn .edit:hover a {
+    color: #fff;
+}
+
+.box-user-product .not-product {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    background-color: #fff;
+    transform: translateY(50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2em;
+}
+
+.box-user-product .not-product a {
+    padding: 15px;
+    background-color: #373435;
+    color: #fff;
+    transition: 0.15s ease-in-out;
+}
+
+.box-user-product .not-product a:hover {
+    background-color: #ed3237;
+}
+
+.box-user-product .not-product p {
+    font-weight: 600;
+}
+
+/* ------------------------------Edit----------------------------------- */
+
+.box-edit {
+    height: 100vh;
+    width: calc(100% - 300px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#e8ebda;
+}
+
+.box-edit-item {
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+}
+
+.box-edit-item img {
+    max-width: 85%;
+    padding-top: 5%;
+}
+
+.box-edit-item p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.box-edit-item span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: 0.15s ease-in-out;
+    cursor: pointer;
+    height: 100%;
+}
+
+.box-edit-item span input {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.box-edit-item span i {
+    position: absolute;
+    font-size: 2em;
+    top: 43%;
+    left: 40%;
+    color: #fff;
+}
+
+.box-edit-item:hover span {
+    opacity: 1;
+}
+
+.form-upload {
+    margin-left: 50px;
+    width: 50%;
+}
+
+.form-upload .form-edit-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-upload .form-edit-item label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.form-upload .form-edit-item input {
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.form-upload button {
+    padding: 15px 30px;
+    background-color: #373435;
+    transition: 0.15s ease-in-out;
+    color: #fff;
+}
+
+.form-upload button:hover {
+    background-color: #ed3237;
+}
+
+.errProduct {
+    height: 100vh;
+    width: calc(100% - 300px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.errProduct a {
+    padding: 15px;
+    background-color: #373435;
+    color: #fff!important;
+    font-size: 18px;
+    transition: 0.15s ease-in-out;
+}
+
+.errProduct a:hover {
+    background-color: #ed3237;
+}
+
+.loadingEdit{
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    font-size: 2em;
+}
+
+@media screen and (max-width: 1024px){
+    .box-edit{
+        width: 100%;
+    }
+}
+
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px){
+    .box-edit{
+        flex-direction:column;
+    }
+    .box-edit-item{
+        margin-bottom:20px;
+    }
+    .form-upload {
+    margin-left: 0;
+}
+}
